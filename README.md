@@ -5,21 +5,21 @@
 
 This project analyzes historical Walmart store sales to identify the main factors associated with weekly sales performance and to test whether a simple regression model can explain part of the variation in sales.
 
-The project combines **Python, SQL, data visualization, correlation analysis, and linear regression** in a complete business analytics workflow.
+The project combines Python, SQL, data visualization, correlation analysis, and linear regression in a complete business analytics workflow.
 
 ## Business Question
 
-**What factors drive weekly sales across Walmart stores, and can a simple model help explain sales performance?**
+What factors drive weekly sales across Walmart stores, and can a simple model help explain sales performance?
 
 ## Dataset
 
-The analysis uses the **Walmart Recruiting - Store Sales Forecasting** dataset.
+The analysis uses the Walmart Recruiting - Store Sales Forecasting dataset.
 
 The main files used are:
 
-- `train.csv` — weekly sales by store and department
-- `features.csv` — economic and environmental variables
-- `stores.csv` — store type and size
+- `train.csv` -> weekly sales by store and department
+- `features.csv` -> economic and environmental variables
+- `stores.csv` -> store type and size
 
 The dataset contains information on 45 Walmart stores, including:
 
@@ -32,7 +32,7 @@ The dataset contains information on 45 Walmart stores, including:
 - Consumer Price Index (CPI)
 - Unemployment
 
-The raw department-level data is aggregated into a **store-week level dataset** for the main analysis.
+The raw department-level data is aggregated into a store-week level dataset for the main analysis.
 
 ## Tools and Skills
 
@@ -67,24 +67,24 @@ The raw department-level data is aggregated into a **store-week level dataset** 
 
 ### Store type
 
-Type A stores generated the highest average weekly sales at approximately **$1.38 million**, followed by Type B at about **$823,000** and Type C at about **$473,000**.
+Type A stores generated the highest average weekly sales at approximately $1.38 million, followed by Type B at about $823,000 and Type C at about $473,000.
 
 ### Store size
 
-Store size had a strong positive correlation with weekly sales of approximately **0.81**. This suggests that larger stores generally generated higher weekly sales in this dataset.
+Store size had a strong positive correlation with weekly sales of approximately 0.81. This suggests that larger stores generally generated higher weekly sales in this dataset.
 
 ### Holiday effect
 
 Average weekly sales were approximately:
 
-- **$1.12 million during holiday weeks**
-- **$1.04 million during non-holiday weeks**
+- $1.12 million during holiday weeks
+- $1.04 million during non-holiday weeks
 
-Holiday weeks therefore generated around **7.84% higher average weekly sales**.
+Holiday weeks therefore generated around 7.84% higher average weekly sales.
 
 ### Seasonality
 
-December recorded the highest average weekly sales at approximately **$1.28 million**, followed by November at approximately **$1.15 million**.
+December recorded the highest average weekly sales at approximately $1.28 million, followed by November at approximately $1.15 million.
 
 This indicates a clear increase in sales toward the end of the year.
 
@@ -118,10 +118,10 @@ A simple linear regression model was built using:
 
 The model achieved:
 
-- **R²: 0.662**
-- **Mean Absolute Error: approximately $247,929**
+- R²: 0.662
+- Mean Absolute Error: approximately $247,929
 
-An R² of 0.662 means that the variables included in the model explain about **66.2% of the variation in weekly store sales**.
+An R² of 0.662 means that the variables included in the model explain about 66.2% of the variation in weekly store sales.
 
 The model is intentionally simple and is used mainly to demonstrate how business variables can be combined in a basic predictive analysis.
 
