@@ -40,7 +40,7 @@ The raw department-level data is aggregated into a store-week level dataset for 
 - pandas
 - NumPy
 - Matplotlib
-- SQL / SQLite
+- SQL
 - Data cleaning and merging
 - GroupBy analysis
 - Data visualization
